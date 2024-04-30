@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.cadastro-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cancel {
+    background-color: #ccc;
+    color: #333;
+}
+
+.limpar {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.cadastro {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.cadastro:hover {
+    background-color: #0056b3;
+}

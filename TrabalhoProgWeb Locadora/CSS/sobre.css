@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px; 
+    background-color: black;
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.sobre-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 62, 62); 
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}

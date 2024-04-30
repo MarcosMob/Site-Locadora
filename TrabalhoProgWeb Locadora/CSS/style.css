@@ -1,0 +1,100 @@
+h1{ 
+   color: #9C0706;
+}
+
+body{
+    background-color: black  ;
+}
+.cor1{
+    background-color: #9C0706;
+}
+
+/* Estilos CSS para a imagem dentro da div .col-md-3 */
+.col-md-3 img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid white;
+    transition: 0.5s ease-in-out;
+}
+
+/* Estilos CSS para a div .col-md-3 quando o mouse está em cima */
+.col-md-3:hover {
+    width: 320px;
+    height: 420px;
+    transform: translate(5px, 10px);
+}
+
+/* Estilos CSS para a imagem dentro da div .col-md-3 quando o mouse está em cima */
+.col-md-3:hover img {
+    opacity: 0.3;
+}
+
+.carousel-inner .carousel-item .image-container {
+    width: 50%;
+    margin: 0 auto; 
+}
+
+/* Estilos CSS para as imagens dentro do contêiner */
+.carousel-inner .carousel-item .image-container img {
+    width: 1000px; /* A imagem ocupa 100% da largura do contêiner */
+    height: 300px; /* A altura se ajustará automaticamente */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 30%; /* Define a posição vertical como o centro do elemento pai */
+    transform: translateY(-37%); /* Ajusta a posição vertical para alinhar ao centro */
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-links {
+    margin: 40px 0;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #9C0706; 
+    border-radius: 20px;
+}
+
+.social-link:hover {
+    background-color: #9C0706; /* Cor vermelha ao passar o mouse */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.facebook {
+    border-color: #1877F2; 
+}
+
+.twitter {
+    border-color: #1DA1F2; 
+}
+
+.instagram {
+    border-color: #E4405F; 
+}
+
+p {
+    margin: 0;
+}
